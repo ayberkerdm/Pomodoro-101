@@ -1,17 +1,37 @@
-# pomodoro
+# 🍅 Pomodoro101
 
-A new Flutter project.
+**Pomodoro 101**, odaklanma sürenizi maksimize etmek ve verimliliğinizi artırmak için tasarlanmış modern, şık ve kullanıcı dostu bir üretkenlik uygulamasıdır. Material 3 prensipleriyle geliştirilen uygulama, Pomodoro tekniğini görev yönetimi ve derinlemesine istatistiklerle birleştirir.
 
-## Getting Started
+[![Flutter Version](https://img.shields.io/badge/Flutter-3.x-blue.svg)](https://flutter.dev)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Android-orange.svg)](#)
 
-This project is a starting point for a Flutter application.
+## ✨ Özellikler
 
-A few resources to get you started if this is your first Flutter project:
+*   **🎯 Gelişmiş Zamanlayıcı:** 25/5 kuralına sadık kalarak veya tamamen kendi temponuza göre özelleştirilebilir odaklanma ve mola süreleri.
+*   **📋 Görev Yönetimi:** Görevlerinizi oluşturun, kategorilere ayırın ve her görev için harcadığınız Pomodoro sayısını takip edin.
+*   **📊 Derinlemesine İstatistikler:** Günlük, haftalık ve aylık verimlilik grafiklerinizi inceleyin. En verimli olduğunuz günleri keşfedin.
+*   **🎨 Dinamik Temalar:** Kullanıcı dostu Mavi ve Yeşil tema seçenekleri. Arka plan rengine göre tüm UI'ın (Navigasyon çubuğu dahil) uyum sağlaması.
+*   **🚀 Premium Animasyonlar:** 
+    *   Nefes alan (Breathing) ikon efektleri.
+    *   Modern saat kadranı (Clock Dial) yükleme animasyonu.
+    *   Pürüzsüz sayfa geçişleri.
+*   **📱 Onboarding:** İlk kez kullananlar için adım adım özellik tanıtımı.
+*   **🔔 Bildirimler & Geri Bildirim:** Oturum bittiğinde yerel bildirimler, sesli uyarılar ve titreşim desteği.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🛠️ Teknik Altyapı
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Bu proje, en güncel Flutter mimarisi ve en iyi pratikler (Best Practices) kullanılarak geliştirilmiştir:
+
+*   **State Management:** [Riverpod](https://riverpod.dev/) (Kod üretimi ile birlikte)
+*   **Database:** [Isar Database](https://isar.dev/) (Yüksek performanslı NoSQL yerel veritabanı)
+*   **Navigation:** [GoRouter](https://pub.dev/packages/go_router) (Deklaratif yönlendirme)
+*   **Animations:** [Flutter Animate](https://pub.dev/packages/flutter_animate)
+*   **Architecture:** Clean Architecture prensiplerine uygun katmanlı yapı (Features, Core, Data).
+
+## 🚀 Kurulum
+
+Projeyi yerel makinenizde çalıştırmak için:
+
+1. Depoyu klonlayın:
+   
